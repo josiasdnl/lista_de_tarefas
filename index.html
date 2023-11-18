@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista tarefas</h1>
+        </header>
+        <div class="container">
+            <form id="new-item">
+                <input type="text" placeholder="Nova tarefa" id="item-input" required>
+                <button type="submit" id="submit-btn">Adicionar</button>
+                <button type="reset" id="reset-btn">Cancelar</button>
+            </form>
+        </div>
+        <div class="container">
+            <form id="items-list">
+                <ul>
+                    <li>
+                        Ir ao mercado
+                    </li>
+                    <li>
+                        Abastecer
+                    </li>
+                    <li>
+                        Pagar conta de água
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
