@@ -25,7 +25,7 @@ h1 {
     border-radius: 18px;
 }
 
-#new-item {
+#formulario-input {
     text-align: center;
 }
 
@@ -43,27 +43,27 @@ button {
     cursor: pointer;
 }
 
-#submit-btn {
+#botao-submit {
     background-color: #039d03;
 }
 
-#submit-btn:hover {
+#botao-submit:hover {
     background-color: #02b602;
 }
 
-#reset-btn {
+#botao-reset {
     background-color: #bc0505;
 }
 
-#reset-btn:hover {
+#botao-reset:hover {
     background-color: #d30505;
 }
 
-#item-input {
+#input-novo-item {
     width: 300px;
 }
 
-#items-list {
+#lista-de-tarefas {
     margin-top: 64px;
 }
 
